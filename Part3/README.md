@@ -20,7 +20,7 @@ When answering the questions, remember to use all the resources at your disposal
  > *Your answer here*
  
  ### What are the differences between processes, threads, green threads, and coroutines?
- > * -	Process
+ > -	Process
   o	An executing program that provides the recources that one needs to execute a program.
 -	Thread 
  o	A “unit of execution” which is scheduled by the OS and it can be paused and resumed.
@@ -28,7 +28,6 @@ When answering the questions, remember to use all the resources at your disposal
  o	A thread which is managed and scheduled by the runtime  
 -	Co-routines 
  o	Scheduled by the user, not runtime or OS-managed
-*
  
  ### Which one of these do `pthread_create()` (C/POSIX), `threading.Thread()` (Python), `go` (Go) create?
  > *-	Pthread-create() = OS-managed thread 
