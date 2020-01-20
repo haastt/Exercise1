@@ -30,10 +30,10 @@ When answering the questions, remember to use all the resources at your disposal
  o	Scheduled by the user, not runtime or OS-managed
  
  ### Which one of these do `pthread_create()` (C/POSIX), `threading.Thread()` (Python), `go` (Go) create?
- > *-	Pthread-create() = OS-managed thread 
+ > -	Pthread-create() = OS-managed thread 
 -	threading.Thread() = OS-managed thread
 -	go = Creates a co-routine, but looks like a green thread from a programmers pov
-*
+
  
  ### How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
  > *The interpreter in pyhthon looks at one piece of code at a time, so spawning more OS threads does not increase performance.*
