@@ -20,7 +20,7 @@ When answering the questions, remember to use all the resources at your disposal
  > *Your answer here*
  
  ### What are the differences between processes, threads, green threads, and coroutines?
- > *-	Process
+ > * -	Process
   o	An executing program that provides the recources that one needs to execute a program.
 -	Thread 
  o	A “unit of execution” which is scheduled by the OS and it can be paused and resumed.
